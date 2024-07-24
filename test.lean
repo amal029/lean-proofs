@@ -556,7 +556,7 @@ by
   case _ n1 n2 => match s' with
                   | x :: s' => simp; simp only [PSEval, CSEval] at q; sorry
   case _ n1 n2 => match s' with
-                  | x :: s' => simp; simp at q; sorry
+                  | x :: s' => simp; simp at q;sorry
   
 
 -- Now we are ready to prove some properties about this compiler
